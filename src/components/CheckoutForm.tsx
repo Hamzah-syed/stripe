@@ -49,7 +49,9 @@ const CheckoutForm = () => {
     <div>
       <div className="formContainer">
         <CardElement options={CARD_ELEMENT_OPTIONS} />
-        <button onClick={handleSubmit}>Checkout</button>
+        <button className="btnPrimary" onClick={handleSubmit}>
+          Checkout
+        </button>
       </div>
     </div>
   );
